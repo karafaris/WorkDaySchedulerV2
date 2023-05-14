@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!--App Header-->
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h4 id="currentDate"></h4>
+    </header>
+
+    <!-- the day schedule events (as bootstrap rows) over a work day -->
+    <div class="container">
+      <div class="row no-gutters" id="msgSaved"></div>
+      <div class="row no-gutters" id="0a"></div>
+      <div class="row no-gutters" id="1a"></div>
+      <div class="row no-gutters" id="2a"></div>
+      <div class="row no-gutters" id="3a"></div>
+      <div class="row no-gutters" id="4a"></div>
+      <div class="row no-gutters" id="5a"></div>
+      <div class="row no-gutters" id="6a"></div>
+      <div class="row no-gutters" id="7a"></div>
+      <div class="row no-gutters" id="8a"></div>
+    </div>
+
+<!---link to .js-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+  </body>
+</html>
