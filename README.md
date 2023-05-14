@@ -9,7 +9,7 @@ Clone the current repository to your local repository to access this code or dow
 
 ## Screenshots
 '''md
-![alt="Project Management Application"](Module5Challenge-WorkDayScheduler/Assets/images/screenshot-wd-sched.png)
+![alt="Project Management Application"](Assets/images/screenshot-wd-sched.png)
 '''
 
 ## GitHub Remote Repository URL
