@@ -13,9 +13,10 @@ Clone the current repository to your local repository to access this code or dow
 '''
 
 ## GitHub Remote Repository URL
-https://github.com/karafaris/WorkDayScheduler.git
+https://github.com/karafaris/WorkDaySchedulerV2.git
 
-
+## URL to Application
+https://karafaris.github.io/WorkDaySchedulerV2/
 
 ## User Story
 
